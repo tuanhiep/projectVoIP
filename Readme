@@ -1,0 +1,33 @@
+How to execute my application ?
+
+
+Fist, for run the application, we must set the library for it:
+
+Appllication need two libraries:
+
+1> jain-sip
+2> libjitsi
+
+We can find two ones in the folder Lib_Tel
+
+But, for the part native of libjitsi, in ubuntu we must set the java.library.path 
+
+In NetBean, right click the project --> Set Configuration --> Customize --> 
+
+  In the field of VM Options, set the path like that :
+
+
+-Djava.library.path="your_repertory/Lib_Tel/libjitsi/lib/native/linux-64"
+
+
+in which your_repertory is the repertory in your computer to find the folder Lib_Tel
+
+Example: 
+
+-Djava.library.path="/home/canhchimbang/NetBeansProjects/group6voip/Lib_Tel/libjitsi/lib/native/linux-64"
+
+To run the application,
+
+Right click the file : Telephone.java and click Run-file
+
+
