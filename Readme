@@ -1,16 +1,16 @@
-How to execute my application ?
+How to execute my application?
 
 
-Fist, for run the application, we must set the library for it:
+First, to run the application, we must set the library for it:
 
-Appllication need two libraries:
+The application needs two libraries:
 
 1> jain-sip
 2> libjitsi
 
 We can find two ones in the folder Lib_Tel
 
-But, for the part native of libjitsi, in ubuntu we must set the java.library.path 
+But, for the part native of libjitsi, in ubuntu, we must set the java.library.path 
 
 In NetBean, right click the project --> Set Configuration --> Customize --> 
 
@@ -28,6 +28,6 @@ Example:
 
 To run the application,
 
-Right click the file : Telephone.java and click Run-file
+Right-click the file: Telephone.java and click Run-file
 
 
